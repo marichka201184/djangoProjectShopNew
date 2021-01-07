@@ -1,7 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="675dc44b-61a4-4ff0-81a7-d9886ef5136e" name="Default Changelist" comment="" />
+    <list default="true" id="675dc44b-61a4-4ff0-81a7-d9886ef5136e" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/a8f11d1a-2163-4b73-9e82-9ad2b1120746.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/a8f11d1a-2163-4b73-9e82-9ad2b1120746.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Pipfile" beforeDir="false" afterPath="$PROJECT_DIR$/Pipfile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Pipfile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/Pipfile.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/djangoProjectShopNew/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/djangoProjectShopNew/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/djangoProjectShopNew/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/djangoProjectShopNew/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/myapp/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/myapp/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/myapp/serializers.py" beforeDir="false" afterPath="$PROJECT_DIR$/myapp/serializers.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/myapp/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/myapp/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/myapp/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/myapp/views.py" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -14,6 +25,9 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectId" id="1mYn3T6KrHzzDVov50dRikeOy8w" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -24,7 +38,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../djangoProjectShop" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../djangoProjectShopNew" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -65,6 +79,9 @@
       <option name="presentableId" value="Default" />
       <updated>1609679193422</updated>
       <workItem from="1609679298551" duration="5405000" />
+      <workItem from="1610015526050" duration="131000" />
+      <workItem from="1610015662921" duration="3632000" />
+      <workItem from="1610022323786" duration="8876000" />
     </task>
     <servers />
   </component>
