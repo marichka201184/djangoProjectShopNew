@@ -21,17 +21,6 @@ class MyApiView(APIView):
         serializer = ShopSerializer(qs, many=True)
         return Response(serializer.data, status=status.HTTP_200_OK)
 
-    # def patch(self, *args, **kwargs):
-    #     f = self.request.query_params.get('filter', None)
-    #     shop = ShopModel.objects.get(pk=f)
-    #     data = self.request.data
-    #     serializer = ShopSerializer(shop, data=data)
-    #     if not serializer.is_valid():
-    #         return Response(serializer.errors, status.HTTP_400_BAD_REQUEST)
-    #     serializer.save()
-    #     return Response(serializer.data, status.HTTP_200_OK)
-
-
 class ReadUpdateView(APIView):
     def delete(self, *args, **kwargs):
         id = kwargs.get('id')
