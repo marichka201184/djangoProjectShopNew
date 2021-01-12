@@ -85,11 +85,24 @@ class ReadUpdateItemView(APIView):
 
     def get(self, *args, **kwargs):
         id = kwargs.get('id')
-       # id = self.request.query_params.get('id', None)
         print(id)
+        shop_id = self.request.query_params.get('shop_name')
         qs = ItemModel.objects.all()
         if id:
             qs = qs.filter(pk=id)
+        if shop_id:
+            qs= qs.filter(shop_name=shop_id)
+        serializer = ItemSerializer(qs, many=True)
+        return Response(serializer.data, status=status.HTTP_200_OK)
+
+
+class ReadShopItemView(APIView):
+    def get(self, *args, **kwargs):
+        id = self.request.query_params.get('shop_name')
+        print(id)
+        qs = ItemModel.objects.all()
+        if id:
+            qs = qs.filter(shop_name_iexact=id)
         serializer = ItemSerializer(qs, many=True)
         return Response(serializer.data, status=status.HTTP_200_OK)
 
