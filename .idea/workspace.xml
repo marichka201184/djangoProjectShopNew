@@ -2,8 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="675dc44b-61a4-4ff0-81a7-d9886ef5136e" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/djangoProjectShopNew.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/djangoProjectShop20210112.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/myapp/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/myapp/urls.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/myapp/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/myapp/views.py" afterDir="false" />
@@ -226,11 +224,23 @@
       <workItem from="1610015662921" duration="3632000" />
       <workItem from="1610022323786" duration="8876000" />
       <workItem from="1610387561431" duration="10000" />
-      <workItem from="1610387600704" duration="13761000" />
+      <workItem from="1610387600704" duration="14388000" />
     </task>
+    <task id="LOCAL-00001" summary="add qs">
+      <created>1610475691217</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1610475691217</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="add qs" />
+    <option name="LAST_COMMIT_MESSAGE" value="add qs" />
   </component>
 </project>

@@ -6,5 +6,5 @@ urlpatterns = [
     path('/<int:id>', ReadUpdateView.as_view(), name="readUpdate"),
     path('/item', ItemApiView.as_view(), name="itemapiview"),
     path('/item/<int:id>', ReadUpdateItemView.as_view(), name="readUpdateItem"),
-    path('/item', ReadShopItemView.as_view(), name="readShopUpdateItem")
+    path('/item/byStore', ReadShopItemView.as_view(), name="readShopUpdateItem")
 ]

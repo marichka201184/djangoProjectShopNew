@@ -102,7 +102,7 @@ class ReadShopItemView(APIView):
         print(id)
         qs = ItemModel.objects.all()
         if id:
-            qs = qs.filter(shop_name_iexact=id)
+            qs = qs.filter(shop_name=id)
         serializer = ItemSerializer(qs, many=True)
         return Response(serializer.data, status=status.HTTP_200_OK)
 
