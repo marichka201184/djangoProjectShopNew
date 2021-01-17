@@ -8,6 +8,8 @@ django = "*"
 djangorestframework = "*"
 mysqlclient = "*"
 django-cors-headers = "*"
+automium-web = "*"
+appconfig = "*"
 
 [dev-packages]
 
